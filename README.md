@@ -6,7 +6,7 @@ It provides:
 
      Scala 2.9.2
      SBT 0.11.2
-     Specs2 1.9
+     Scalatest 1.8
      Mockito 1.9
      IntelliJ IDEA
      Scala-IDE 2.0+

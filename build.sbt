@@ -1,14 +1,13 @@
 name := "first-scala-step"
 
-organization := "uk.co.fluidlabs"
+organization := "io.das"
 
 version := "1.3"
 
 scalaVersion := "2.9.2"
 
 libraryDependencies ++= Seq(
-    "org.specs2" %% "specs2" % "1.9" % "test",
-    "org.specs2" %% "specs2-scalaz-core" % "6.0.1" % "test",
+    "org.scalatest" %% "scalatest" % "1.8" % "test",
     "org.mockito" % "mockito-all" % "1.9.0" % "test",
     "junit" % "junit" % "4.8.2" % "test"
 )
